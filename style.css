@@ -1,0 +1,68 @@
+body {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    padding: 0px 5% 0px 5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    border: 1px solid;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main {
+    width: 75%;
+    border: 1px solid red;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hi {
+    font-size: 3rem;
+}
+
+.bio {
+    border: 1px solid grey;
+}
+
+.socials a {
+    padding: 0px 0.5rem 0rem;
+}
+
+.projects {
+    width: 75%;
+}
+
+.socials {
+    font-size: 1.5rem;
+}
+
+.project {
+    border: 1px dashed;
+    padding: 2rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.project img {
+    height: 20rem;
+}
