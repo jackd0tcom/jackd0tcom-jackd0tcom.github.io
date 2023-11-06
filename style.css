@@ -3,9 +3,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid;
     padding: 0px 5% 0px 5%;
     font-family: 'DM Sans', sans-serif;
+    margin: 0;
 }
 
 a {
@@ -14,14 +14,12 @@ a {
 }
 
 header {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .links {
-    border: 1px solid;
     width: 30%;
     display: flex;
     align-items: center;
@@ -30,7 +28,6 @@ header {
 
 .main {
     width: 75%;
-    border: 1px solid red;
     height: 85vh;
     display: flex;
     flex-direction: column;
@@ -42,7 +39,6 @@ header {
 }
 
 .bio {
-    border: 1px solid grey;
 }
 
 .socials a {
@@ -51,6 +47,33 @@ header {
 
 .projects {
     width: 75%;
+}
+
+.projects h3 {
+    font-size: 1.5rem;
+}
+
+.project-hero {
+    display: flex;
+}
+
+.project-head {
+    display: flex;
+    flex-direction: column;
+    padding-right: 6rem;
+}
+
+.project-head h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.project-head p {
+    font-size: 1.25rem;
+}
+
+.project-info {
+
 }
 
 .socials {
@@ -65,4 +88,49 @@ header {
 
 .project img {
     height: 20rem;
+    padding: 2rem 2rem 0 0;
+}
+
+#outdoorempire {
+    font-size: 1rem;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.contact {
+    background-color: black;
+    border: 1px solid;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 6rem 0;
+    margin-top: 6rem;
+}
+.contact h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+form {
+    border: 1px solid;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+form input {
+    padding: 1rem;
+    margin: 1rem ;
+    width: 50%;
+}
+
+#message {
+    padding-bottom: 10rem;
 }
