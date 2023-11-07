@@ -147,7 +147,16 @@ form input {
     padding-bottom: 10rem;
 }
 
-@media (max-width: 600px) {
+.OE-title {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.OE-title:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
     body {
       /* background-color: lightblue; */
     }
