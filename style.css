@@ -73,7 +73,7 @@ header {
 }
 
 .project-info {
-
+    width: 100%;
 }
 
 .socials {
@@ -84,11 +84,14 @@ header {
     border: 1px dashed;
     padding: 2rem;
     margin: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .project img {
     height: 20rem;
     padding: 2rem 2rem 0 0;
+    width: 100%;
 }
 
 #outdoorempire {
@@ -131,6 +134,66 @@ form input {
     width: 50%;
 }
 
+#submit {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+}
+
 #message {
     padding-bottom: 10rem;
 }
+
+@media (max-width: 600px) {
+    body {
+      /* background-color: lightblue; */
+    }
+    .links {
+    width: 50%;        
+    }
+    
+    .main {
+        width: 100%;
+    }
+    .projects{
+        width: 100%;
+    }
+    .project{
+        padding: 1rem;
+    }
+    .project-hero {
+        flex-direction: column;
+        padding: 0;
+    }
+    .project-head {
+        padding: 0;
+    }
+    .project-head h1 {
+        font-size: 2rem;
+    }
+    .project-head p {
+        font-size: 1rem;
+    }
+    .project-hero img {
+        height: 100%;
+    }
+    .project-info p {
+        font-size: 1rem;
+    }
+    .contact {
+        border: 1px solid;
+        width: 100%;
+    }
+    .contact-header {
+        padding: 2rem;
+    }
+    form input {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    form {
+        width: 50%;
+    }
+  }
