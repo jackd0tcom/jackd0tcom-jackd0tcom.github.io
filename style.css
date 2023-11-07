@@ -140,6 +140,7 @@ form input {
     font-size: 1rem;
     font-weight: bold;
     border: none;
+    cursor: pointer;
 }
 
 #message {
